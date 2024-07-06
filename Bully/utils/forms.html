@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sesc Anti-bullying</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo_container">
+        <img src="./img/logo.png" class="logo" alt="logo do sesc" />
+        <img
+          src="./img/logo_senac.png"
+          class="logo"
+          id="senac"
+          alt="logo do senac"
+        />
+      </div>
+
+      <img
+        src="./img/sembully.png"
+        alt="logo da escola sem bullying"
+        id="logo_bully"
+      />
+    </header>
+
+    <div class="navContainer">
+      <nav class="navbar">
+        <ul class="ul">
+          <li><a href="./index.html" class="navigation">Bullying</a></li>
+          <li>
+            <a href="./cyberbully.html" class="navigation">Cyberbullying</a>
+          </li>
+          <li>
+            <a href="./cyberbully.html" class="navigation"
+              >Conte sua história</a
+            >
+          </li>
+          <li>
+            <a href="./quem_somos.html" class="navigation">Quem Somos?</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="container">
+
+      
+      <form
+        action="https://api.staticforms.xyz/submit"
+        method="POST"
+        class="contato"
+        autocomplete="on"
+      >
+      
+      <p id="formulario">O projeto do formulário de denúncias de bullying tem como principal objetivo proporcionar um meio seguro, anônimo e acessível para que estudantes, pais, professores e funcionários possam relatar casos de bullying nas escolas. Esse recurso visa identificar e tratar rapidamente situações de intimidação, assédio ou violência entre os alunos, promovendo um ambiente escolar mais seguro e acolhedor para todos.</p>
+
+
+        <input
+          type="hidden"
+          name="accessKey"
+          value="25f3e6b3-0ec3-4aca-b981-d51613f38223"
+        />
+
+        <input
+          type="hidden"
+          name="redirectTo"
+          value="https://portfolio-pulpor.vercel.app/"
+        />
+
+        <div class="contact__inputs grid">
+          <div class="contact__content">
+           
+            <input
+              type="text"
+              class="contact__input"
+              placeholder="Caso queira se identificar, insira seu nome aqui"
+              name="name"
+              id="name"
+            />
+          </div>
+
+        </div>
+        <div class="contact__content">
+          
+          <textarea
+            name="message"
+            class="contact__input"
+            placeholder="Conte sua história aqui, seja detalhista"
+            id="message"
+            cols="0"
+            rows="7"
+            required
+          ></textarea>
+        </div>
+
+        <div>
+          <button
+            type="submit"
+            class="button button--flex"
+            id="submitButton"
+            onclick="validateForm(event)"
+          >
+            Send Message
+            <i class="uil uil-message button__icon"></i>
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <footer>Todos os direitos reservados - 1º Ano Sesc © 2024</footer>
+  </body>
+</html>
