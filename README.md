@@ -1,6 +1,6 @@
 # SESC Centro Londrina - Projeto do Primeiro Ano do Ensino Médio Técnico em Programação
 
-Bem-vindo ao repositório do projeto desenvolvido pelo primeiro ano do Ensino Médio Técnico em Programação do SESC Centro Londrina. Este projeto consiste na criação de um site dedicado à campanha anti-bullying, com um formulário para denúncias.
+Bem-vindo ao repositório do projeto desenvolvido pelo primeiro ano do Ensino Médio Técnico em Programação do SESC Centro Londrina. Este projeto consiste na criação de um site dedicado à campanha anti-bullying, com um formulário para denúncias. 🎯
 
 ## Tecnologias Utilizadas
 - HTML
