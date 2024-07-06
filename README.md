@@ -12,13 +12,6 @@ O projeto foi dividido em 5 equipes, cada uma responsável por uma parte especí
 ## Metodologia e Ferramentas
 Utilizamos metodologias ágeis, como o sistema Kanban, para acompanhar o progresso do projeto e definir os passos a serem seguidos. Além disso, utilizamos ferramentas como o GIMP para realizar edições e o Adobe Color para a colorização do site, garantindo um design atrativo.
 
-## Contribuidores
-- **Equipe 1:** [Nome do líder] e membros da equipe
-- **Equipe 2:** [Nome do líder] e membros da equipe
-- **Equipe 3:** [Nome do líder] e membros da equipe
-- **Equipe 4:** [Nome do líder] e membros da equipe
-- **Equipe 5:** [Nome do líder] e membros da equipe
-
 ## Como Contribuir
 Sinta-se à vontade para contribuir com o projeto! Se você é aluno do SESC Centro Londrina, entre em contato com o líder de sua equipe para saber como você pode ajudar. Caso contrário, você pode abrir uma issue para sugerir melhorias ou realizar um fork do repositório e enviar um pull request com suas alterações.
 
